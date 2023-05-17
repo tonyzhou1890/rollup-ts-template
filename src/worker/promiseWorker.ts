@@ -1,7 +1,7 @@
 import Worker from 'web-worker:./workerUtils.ts'
-import type { Add } from './add'
-import type { Sub } from './sub'
-import type { WorkerCallPromisify } from './types'
+import type { Add } from '../add'
+import type { Sub } from '../sub'
+import type { WorkerCallPromisify } from '../types'
 
 /**
  * worker job type

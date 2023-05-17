@@ -1,34 +1,5 @@
-'use strict';
-
-/**
- * example function: add
- */
-/**
- * add numbers
- * @param rest
- */
-function add(...rest) {
-    let res = 0;
-    for (let i = 0, len = rest.length; i < len; i++) {
-        res += rest[i];
-    }
-    return res;
-}
-
-/**
- * example function: sub
- */
-/**
- * sub numbers
- * @param rest
- */
-function sub(...rest) {
-    let res = rest[0];
-    for (let i = 1, len = rest.length; i < len; i++) {
-        res -= rest[i];
-    }
-    return res;
-}
+import add from './add.js';
+import sub from './sub.js';
 
 var WorkerClass = null;
 
@@ -168,4 +139,4 @@ const utils = {
     worker: run,
 };
 
-module.exports = utils;
+export { utils as default };

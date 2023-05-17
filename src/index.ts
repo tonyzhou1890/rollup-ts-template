@@ -1,6 +1,6 @@
 import add from './add'
 import sub from './sub'
-import worker from './promiseWorker'
+import worker from './worker/promiseWorker'
 
 const utils = {
   add,

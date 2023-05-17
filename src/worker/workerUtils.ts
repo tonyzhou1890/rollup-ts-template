@@ -1,6 +1,6 @@
-import { StringKeyObjType } from './types'
-import add from './add'
-import sub from './sub'
+import { StringKeyObjType } from '../types'
+import add from '../add'
+import sub from '../sub'
 
 const utils: StringKeyObjType = {
   add,

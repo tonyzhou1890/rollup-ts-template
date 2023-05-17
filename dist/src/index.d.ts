@@ -3,6 +3,6 @@ import sub from './sub';
 declare const utils: {
     add: typeof add;
     sub: typeof sub;
-    worker: import("./promiseWorker").WorkerUtils;
+    worker: import("./worker/promiseWorker").WorkerUtils;
 };
 export default utils;
